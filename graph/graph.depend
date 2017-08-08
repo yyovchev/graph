@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1501686959 source:/home/yordan/Project/CodeBlocks_test/motionTracking/graph/graph/main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<limits>
+	"graph.h"
+
+1501687179 /home/yordan/Project/CodeBlocks_test/motionTracking/graph/graph/include/graph.h
+	<vector>
+	<list>
+	<algorithm>
+	<iostream>
+	<string>
+	<limits>
+
+1501686947 source:/home/yordan/Project/CodeBlocks_test/motionTracking/graph/graph/src/graph.cpp
+

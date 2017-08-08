@@ -1,5 +1,4 @@
 #include <iostream>
-#include "graph.h"
 
 #include <vector>
 #include <algorithm>
@@ -7,14 +6,16 @@
 //test
 #include <limits>
 
+#include "graph.h"
+
 using namespace std;
 
 
+typedef graph<int> int_graph;
 
 int main()
 {
-    graph g;
-
+    int_graph g;
     g.add_edge(1,4,1);
     g.add_edge(1,2,3);
     g.add_edge(4,3,3);
@@ -36,8 +37,9 @@ int main()
         cout<<arg<<"  ";
     });
     cout<<"\n";
-
+/*
       cout<<"------------------------------------------\nDFS : \n";
+
     vector<int> l2 = g.BFS();
 
     for_each(l2.begin(), l2.end(), [](int arg){
@@ -48,7 +50,7 @@ int main()
     cout<<"------------------------------------------\nshorthest path from 1 to 4 : \n";
     cout<<g.Dijkstras_algo(1,4);
 
-
+*/
 
     return 0;
 }
